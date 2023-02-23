@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "result";
+}
+@model Assignment_2KenanGain.Models.Values
+
+<h2>Happiness Score</h2>
+
+<p>Barley's Happiness Score is @Model.HappinessScore() ,so he will be</p>@if (Model.HappinessScore() >= 10)
+{
+    <p>happy!</p>
+}
+else
+{
+    <p>sad!</p>
+}
+
+
